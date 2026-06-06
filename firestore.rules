@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Secure the Life Planner user data paths
+    match /artifacts/{appId}/users/{userId} {
+      
+      // Allow read/write to the user's document
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+      
+      // Allow read/write to all subcollections/documents within the user's isolated data bucket
+      match /{document=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+    
+    // Default deny for everything else to ensure no cross-user or anonymous data leaks
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
