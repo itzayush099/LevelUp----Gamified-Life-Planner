@@ -15,13 +15,13 @@ A comprehensive, all-in-one productivity and lifestyle tracking application buil
 
 ## 📸 Screenshots
 
-| Dashboard | Task Planner |
-|:---:|:---:|
-| <img src="/docs/placeholder-dashboard.png" alt="Dashboard View" width="400"/> | <img src="/docs/placeholder-tasks.png" alt="Task Planner" width="400"/> |
-
-| Gym Planner | Meal Planner |
-|:---:|:---:|
-| <img src="/docs/placeholder-gym.png" alt="Gym Planner View" width="400"/> | <img src="/docs/placeholder-meal.png" alt="Meal Planner View" width="400"/> |
+> **Dashboard Screenshot** (Coming Soon)
+> 
+> **Task Planner Screenshot** (Coming Soon)
+> 
+> **Gym Planner Screenshot** (Coming Soon)
+> 
+> **Meal Planner Screenshot** (Coming Soon)
 
 ---
 
